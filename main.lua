@@ -1,7 +1,7 @@
 --script meant to run once per mid-round
 local Plrs = game:GetService("Players")
 local LP = Plrs.LocalPlayer
-local Whitelist = {'remembering_allofus'} --type lowercases
+local Whitelist = {'remembering_allofus', 'smelly1nart'} --type lowercases
 local Parts = {} -- array
 do
     for _, Obj in pairs(workspace:WaitForChild("Structure"):GetDescendants()) do -- searching for parts
